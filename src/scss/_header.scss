@@ -1,0 +1,25 @@
+.header {
+  background: #10243d;
+  color: #ecf0fb;
+  padding: 25px;
+  &__content {
+    display: flex;
+    &_logo {
+      padding: 0 200px;
+      font-size: 40px;
+      font-weight: 700;
+    }
+    &_nav {
+      padding: 0 100px;
+      font-size: 30px;
+      &_list {
+        text-decoration: none;
+        color: #ecf0fb;
+        padding: 0 30px;
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+  }
+}

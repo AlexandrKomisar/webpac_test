@@ -1,0 +1,30 @@
+.footer {
+  background: #0b1e36;
+  font-size: 18px;
+  color: #ffffffff;
+  height: 150px;
+  &__content {
+    display: flex;
+    justify-content: center;
+    &_col {
+      width: 30%;
+      text-decoration: none;
+    }
+  }
+}
+
+.contacts {
+  &__title {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  &__link {
+    padding-top: 15px;
+    &_img {
+      width: 50px;
+      padding: 0 35px;
+    }
+  }
+}

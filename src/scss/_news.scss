@@ -1,0 +1,27 @@
+.news {
+  color: #ffffff;
+  &__title {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.article {
+  padding: 25px;
+  width: 33%;
+  &_title {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  &_img {
+    width: 100%;
+  }
+  &_text {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,43 @@
+.cpu {
+  padding-bottom: 25px;
+  color: #ffffff;
+  &__title {
+    font-size: 38px;
+
+    margin-top: 40px;
+  }
+  &__content {
+    &_amd {
+      font-size: 20px;
+    }
+  }
+}
+
+.table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  &__header {
+    background-color: #cc8400;
+    &_item {
+      border: solid 1px #ffffff;
+      padding: 10px;
+      font-size: 30px;
+      writing-mode: vertical-lr;
+      text-align: inherit;
+      transform: rotate(180deg);
+      letter-spacing: 3px;
+      & img {
+        width: 300px;
+      }
+    }
+  }
+  &__light {
+    background: #55525285;
+  }
+  & td {
+    border: solid 1px #ffffff;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
